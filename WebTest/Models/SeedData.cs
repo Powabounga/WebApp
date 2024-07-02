@@ -175,13 +175,6 @@ public static class SeedData
                 },
                 new Movie
                 {
-                    Title = "Gladiator",
-                    ReleaseDate = DateTime.Parse("2000-5-5"),
-                    Genre = "Action",
-                    Price = 3.99M
-                },
-                new Movie
-                {
                     Title = "Titanic",
                     ReleaseDate = DateTime.Parse("1997-12-19"),
                     Genre = "Romance",
@@ -191,6 +184,146 @@ public static class SeedData
                 {
                     Title = "The Avengers",
                     ReleaseDate = DateTime.Parse("2012-5-4"),
+                    Genre = "Action",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "The Terminator",
+                    ReleaseDate = DateTime.Parse("1984-10-26"),
+                    Genre = "Sci-Fi",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Braveheart",
+                    ReleaseDate = DateTime.Parse("1995-5-24"),
+                    Genre = "History",
+                    Price = 4.49M
+                },
+                new Movie
+                {
+                    Title = "A Beautiful Mind",
+                    ReleaseDate = DateTime.Parse("2001-12-21"),
+                    Genre = "Biography",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Avatar",
+                    ReleaseDate = DateTime.Parse("2009-12-18"),
+                    Genre = "Sci-Fi",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "The Departed",
+                    ReleaseDate = DateTime.Parse("2006-10-6"),
+                    Genre = "Crime",
+                    Price = 4.49M
+                },
+                new Movie
+                {
+                    Title = "The Prestige",
+                    ReleaseDate = DateTime.Parse("2006-10-20"),
+                    Genre = "Drama",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Memento",
+                    ReleaseDate = DateTime.Parse("2000-10-11"),
+                    Genre = "Mystery",
+                    Price = 4.49M
+                },
+                new Movie
+                {
+                    Title = "The Green Mile",
+                    ReleaseDate = DateTime.Parse("1999-12-10"),
+                    Genre = "Drama",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Alien",
+                    ReleaseDate = DateTime.Parse("1979-5-25"),
+                    Genre = "Horror",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Gladiator",
+                    ReleaseDate = DateTime.Parse("2000-5-5"),
+                    Genre = "Action",
+                    Price = 4.49M
+                },
+                new Movie
+                {
+                    Title = "Casablanca",
+                    ReleaseDate = DateTime.Parse("1942-11-26"),
+                    Genre = "Romance",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "The Truman Show",
+                    ReleaseDate = DateTime.Parse("1998-6-5"),
+                    Genre = "Drama",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Die Hard",
+                    ReleaseDate = DateTime.Parse("1988-7-20"),
+                    Genre = "Action",
+                    Price = 4.49M
+                },
+                new Movie
+                {
+                    Title = "The Sixth Sense",
+                    ReleaseDate = DateTime.Parse("1999-8-6"),
+                    Genre = "Thriller",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Jaws",
+                    ReleaseDate = DateTime.Parse("1975-6-20"),
+                    Genre = "Thriller",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "E.T. the Extra-Terrestrial",
+                    ReleaseDate = DateTime.Parse("1982-6-11"),
+                    Genre = "Family",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "The Wizard of Oz",
+                    ReleaseDate = DateTime.Parse("1939-8-25"),
+                    Genre = "Fantasy",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Rocky",
+                    ReleaseDate = DateTime.Parse("1976-12-3"),
+                    Genre = "Drama",
+                    Price = 4.49M
+                },
+                new Movie
+                {
+                    Title = "Apocalypse Now",
+                    ReleaseDate = DateTime.Parse("1979-8-15"),
+                    Genre = "War",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Mad Max: Fury Road",
+                    ReleaseDate = DateTime.Parse("2015-5-15"),
                     Genre = "Action",
                     Price = 4.99M
                 }

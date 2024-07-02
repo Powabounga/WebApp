@@ -14,5 +14,7 @@ public class Movie
     public string Genre { get; set; } = string.Empty;
 
     [Column(TypeName = "decimal(18, 2)")]
+    
+    [Display(Name = "Price ($)")]
     public decimal Price { get; set; }
 }
