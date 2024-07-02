@@ -1,9 +1,22 @@
+using Microsoft.EntityFrameworkCore;
+using WebTest.Data;
+using WebTest.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<WebTestContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("WebTestContext") ?? throw new InvalidOperationException("Connection string 'WebTestContext' not found.")));
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
